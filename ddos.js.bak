@@ -65,4 +65,3 @@ process.on('unhandledRejection', function(err) {
     
 });
 console.log('Serangan sukses')
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)

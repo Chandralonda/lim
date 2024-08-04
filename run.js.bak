@@ -140,5 +140,4 @@ console.log(update)})
 rxhl.ev.on('creds.update', saveCreds)
 }
 connectToWhatsApp()
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
